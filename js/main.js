@@ -93,7 +93,7 @@ var Shadow = function(game1, key,x ,y)
 
 Shadow.prototype = Object.create(Phaser.Sprite.prototype);
 Shadow.prototype.constructor = Player;
-=======
+
 var game = new Phaser.Game(1280, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update, render: render});
 
 function init(){
