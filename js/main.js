@@ -161,14 +161,14 @@ function create() {
 
 
     //  Create our physics body. The 'true' parameter enables visual debugging.
->>>>>>> a801b5ef288660e5f73cb98d5079024c12fb80bd
+//>>>>>>> a801b5ef288660e5f73cb98d5079024c12fb80bd
 
 Shadow.prototype.load = function()
 {
     this.animations.play('runAnim');
 }
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 Shadow.prototype.jump = function()
 {
     this.animations.play('jumpAnim');
@@ -397,4 +397,4 @@ function render(){
 
     
 }
->>>>>>> a801b5ef288660e5f73cb98d5079024c12fb80bd
+//>>>>>>> a801b5ef288660e5f73cb98d5079024c12fb80bd
