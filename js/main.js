@@ -187,8 +187,10 @@ mainState.prototype = {
 
         keyList.up = game.input.keyboard.addKey(Phaser.Keyboard.A);
 
-        //game.input.onTap.add(jump, this);
+        game.input.onTap.add(jump, this);
         keyList.up.onDown.add(jump, this);
+
+
 
 
 	 		//cake.callAll(this, game, game.world, 'cake', false, true, Phaser.Physics.ARCADE);
