@@ -167,7 +167,7 @@ Shadow.prototype.load = function()
 {
     this.animations.play('runAnim');
 }
-
+//new comment
 //<<<<<<< HEAD
 Shadow.prototype.jump = function()
 {
